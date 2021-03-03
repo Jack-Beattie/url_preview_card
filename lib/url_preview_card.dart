@@ -1,4 +1,4 @@
-library dockit_url_preview_card;
+library url_preview_card;
 
 import 'dart:convert';
 
@@ -9,10 +9,10 @@ import 'package:http/http.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:string_validator/string_validator.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:dockit_url_preview_card/widgets/preview_description.dart';
-import 'package:dockit_url_preview_card/widgets/preview_image.dart';
-import 'package:dockit_url_preview_card/widgets/preview_site_name.dart';
-import 'package:dockit_url_preview_card/widgets/preview_title.dart';
+import 'package:url_preview_card/widgets/preview_description.dart';
+import 'package:url_preview_card/widgets/preview_image.dart';
+import 'package:url_preview_card/widgets/preview_site_name.dart';
+import 'package:url_preview_card/widgets/preview_title.dart';
 
 /// Provides URL preview
 class UrlPreviewCard extends StatefulWidget {

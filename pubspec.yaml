@@ -1,4 +1,4 @@
-name: dockit_url_preview_card
+name: url_preview_card
 description: Flutter package to show url preview. Cache newwork response.
 version: 0.1.0
 

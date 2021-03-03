@@ -15,11 +15,11 @@ Please use latest version of the package.
 
 ## How to use ?
 
-Add dockit_url_preview_card to pubspec.yaml, and hit command 'flutter pub get'
+Add url_preview_card to pubspec.yaml, and hit command 'flutter pub get'
 ```yaml
 dependencies:
   ...
-  dockit_url_preview_card: ^0.1.1
+  url_preview_card: ^0.1.1
 ```
 
 #### 1) **Simple use:**
