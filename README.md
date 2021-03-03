@@ -1,5 +1,6 @@
 Show preview of urls, designed to show list of url previews with caching support.
-
+# pulls forks from https://github.com/OneSheep/url_preview_card/pull/2/files
+# pulls forks from https://github.com/OneSheep/url_preview_card/pull/1/files
 Forked from [flutter-simple-url-preview](https://github.com/Amitbhave/flutter-simple-url-preview) with different caching strategy for fast retrivel, and additional styling options.
 
 ![In Action](./example.png)
@@ -14,11 +15,11 @@ Please use latest version of the package.
 
 ## How to use ?
 
-Add url_preview_card to pubspec.yaml, and hit command 'flutter pub get'
+Add dockit_url_preview_card to pubspec.yaml, and hit command 'flutter pub get'
 ```yaml
 dependencies:
   ...
-  url_preview_card: ^0.1.1
+  dockit_url_preview_card: ^0.1.1
 ```
 
 #### 1) **Simple use:**
