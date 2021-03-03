@@ -139,6 +139,7 @@ class _UrlPreviewCardState extends State<UrlPreviewCard> {
         _isVisible = true;
       });
     }
+    debugPrint("html snapshot parser tried: " + widget.url.toString());
     Uri _uri = Uri.tryParse(
       widget.url,
     );
