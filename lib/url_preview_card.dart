@@ -121,16 +121,17 @@ class _UrlPreviewCardState extends State<UrlPreviewCard> {
   }
 
   void _getUrlData() async {
+    debugPrint("html parser tried: " + widget.url.toString());
     final _pref = await SharedPreferences.getInstance();
 
     if (!this.mounted) return;
 
-    if (!isURL(widget.url)) {
+/*     if (!isURL(widget.url)) {
       setState(() {
         _urlPreviewData = null;
       });
       return;
-    }
+    } */
 
     final cachedData = _pref.getString(widget.url);
     if (cachedData != null) {
@@ -139,7 +140,7 @@ class _UrlPreviewCardState extends State<UrlPreviewCard> {
         _isVisible = true;
       });
     }
-    debugPrint("html snapshot parser tried: " + widget.url.toString());
+
     Uri _uri = Uri.tryParse(
       widget.url,
     );
