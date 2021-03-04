@@ -123,7 +123,6 @@ class _UrlPreviewCardState extends State<UrlPreviewCard> {
   void _getUrlData() async {
     debugPrint("html parser tried: " + widget.url.toString());
     final _pref = await SharedPreferences.getInstance();
-
     if (!this.mounted) return;
 
 /*     if (!isURL(widget.url)) {
