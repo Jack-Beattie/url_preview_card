@@ -125,12 +125,12 @@ class _UrlPreviewCardState extends State<UrlPreviewCard> {
     final _pref = await SharedPreferences.getInstance();
     if (!this.mounted) return;
 
-/*     if (!isURL(widget.url)) {
+    if (!isURL(widget.url)) {
       setState(() {
         _urlPreviewData = null;
       });
       return;
-    } */
+    }
 
     final cachedData = _pref.getString(widget.url);
     if (cachedData != null) {
